@@ -1,0 +1,312 @@
+body{
+    font-family: "europa", sans-serif;
+    margin:0;
+    padding:0;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #1D3968;
+}
+.insideHead{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #BDBDBD;
+    background-color: #fff;
+}
+.Head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.Head > img{
+    margin-left: 1.5rem;
+    /* padding: 1.5rem; */
+    display: flex;
+    flex-direction: row;
+}
+.Head > img:hover{
+   box-shadow: 1px 1px 5px grey; 
+   border-radius: 10px;
+}
+.alphaContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.alphaContainer > h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 350%;
+    text-shadow: 1px 1px 5px grey;
+}
+.alphaContainer> h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 150%;
+    text-shadow: 1px 1px 5px grey;
+}
+.alphaContainer> img{
+    margin-bottom: 10em;
+}
+.bravoContainer > h1, h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 250%;
+    text-shadow: 1px 1px 5px grey;
+}
+.bravoContainer > p{
+    text-align: center;
+    font-weight: 400;
+    width: 50%;
+    font-size: 120%;
+    text-shadow: 1px 1px 5px grey;
+}
+.bravoContainer{
+    padding-bottom: 20em;
+    background-color: #7510F7;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    position: absolute;
+    top: 66.60em;
+}
+.leftCharlie{
+    box-shadow: 5px 0 20px grey;
+    width: 70em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 7.5em;
+    bottom: 9.75em;
+    text-align: center;
+    background-color: white;
+    margin: none;
+    padding: none;
+    border-radius: 15px;
+}
+.charlieContainer > img{
+    margin: none;
+    padding: none;
+    position: relative;
+    left: 32em;
+    top: 9em;
+    z-index: 1;
+}
+.leftCharlie > h2{
+    font-size: 350%;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 1px 1px 5px grey;
+}
+.leftCharlie > p{
+    font-size: 150%;
+    font-weight: 500;
+    text-align: center;
+    color: #283346;
+    text-shadow: 1px 1px 5px grey;
+}
+.leftCharlie > h1{
+    font-size: 250%;
+    font-weight: bolder;
+    text-align: center;
+    color: #6F07F2;
+    text-shadow: 1px 1px 5px grey;
+}
+.deltaContainer{
+  margin: 20em 0 20em 0;
+  
+}
+.upperDelta{
+    text-align: center;
+}
+.upperDelta > h1{
+    font-size: 350%;
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px grey;
+}
+.upperDelta > p{
+    font-size: 130%;
+    font-weight: 600;
+    text-shadow: 1px 1px 5px grey;
+}
+.lowerDelta{
+    margin-left: 20em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 45em;
+}
+.lowerDelta > div{
+    width: 15em;
+    height: 15em;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+.lowerDelta > div > a{
+    padding: 5.5em;
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 1px 0 10px white;
+}
+.sampleProjects1{
+    background-image: url(play.png);
+    background-size: contain;
+    background-color: #6F07F2;
+    color: #283346;
+}
+.sampleProjects1 > a{
+    display: none;
+}
+.sampleProjects1:hover{
+  opacity: 0.8;
+  
+}
+.sampleProjects1:hover > a{
+    display: block;
+}
+.sampleProjects2{
+    background-image: url(shopping.png);
+    background-size: cover;
+    background-color: #1D3968;
+    color: #283346;
+}
+.sampleProjects2:hover{
+    opacity: 0.8;
+  }
+  .sampleProjects2 > a{
+    display: none;
+}
+.sampleProjects2:hover > a{
+    display: block;
+}
+.sampleProjects3{
+    background-image: url(fitness.png);
+    background-size: contain;
+    background-color: #BF4C3C;
+    color: #283346;
+}
+.sampleProjects3:hover{
+    opacity: 0.8;
+  }
+  .sampleProjects3 > a{
+    display: none;
+}
+.sampleProjects3:hover > a{
+    display: block;
+}
+.sampleProjects4{
+    background-image: url(food-and-restaurant.png);
+    background-size: contain;
+    background-color: #256340;
+    color: #283346;
+}
+.sampleProjects4:hover{
+    opacity: 0.8;
+  }
+  .sampleProjects4 > a{
+    display: none;
+}
+.sampleProjects4:hover > a{
+    display: block;
+}
+.foxContainer{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 250px;
+    gap: 5px;
+    margin: 30px;
+    position: relative;
+    left: 23.5em;
+    
+}
+.foxContainer img{
+    width: 35%;
+    height: 200%;
+    object-fit: cover;
+    transition: transform 1s;
+}
+.foxContainer img{
+    margin: none;
+    padding: none;
+    object-fit: cover;
+    z-index: 1;
+}
+.foxContainer img:hover{
+    width:100%;
+    transform: scale(1.1);
+}
+.diplomaInfo, .BedInfo, .gradInfo, .interInfo, .metricInfo{
+    display: none;
+}
+.diploma{
+   height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+   
+}
+.BEd{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;  
+    margin-left: 10em;
+}
+.echoContainer{
+    text-align: center;
+    margin-bottom: 15em;
+    padding-bottom: 5em;;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+.echoContainer > h1{
+    font-family: "europa", sans-serif;
+    font-size: 350%;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px grey;
+}
+.echoContainer > p{
+    font-family: "europa", sans-serif;
+    font-size: 150%;
+    text-shadow: 1px 1px 5px grey;
+}
+.echoContainer > button{
+    width: 15em;
+    height: 60px;
+    padding: 10px;
+    font-size: 100%;
+    border: 2px solid #6E07F3;
+    background-color: #fff;
+    border-radius: 35px;
+    font-weight: 600;
+    color: #6E07F3;
+
+}
+.golfContainer{
+    text-align: center;
+}
+.golfContainer > h1{
+    position: relative;
+    left: 14em;
+    width: 13em;
+    text-shadow: 1px 1px 2px grey;
+}
